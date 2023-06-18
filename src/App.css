@@ -58,3 +58,9 @@
     width: 150px;
     position: relative;
 }
+
+.left-add{
+  left: 40px;
+    width: 60px;
+    height: 60px;
+}
