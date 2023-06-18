@@ -65,7 +65,7 @@ function Footer() {
       </div>
       <div className='footer-bottom'>
         <div class="container mx-auto">
-          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-2">
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-2 text-base">
             <div className='text-left'>© 2021-2023 SnipShop.com</div>
             <div>
               <ul className='flex gap-x-3.5 justify-end'>
