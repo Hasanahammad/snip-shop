@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+.margin-left {
+  margin-left: -60px;
+}
+.margin-search {
+  margin-left: 20%;
+}
+
+.slider-background {
+  background-image: "./images/base.png";
+}
+
+.card-size {
+  height: 142px;
+    width: 223px;
+}
+.card-pic-wrap img{
+  height: 201px;
+    bottom: 54px;
+    width: 150px;
+    position: relative;
+}
