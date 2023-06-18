@@ -9,16 +9,16 @@ function Footer() {
   return (
     <section>
       <div className='footer'>
-        <div class="container mx-auto">
-          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-1">
-            <div class="text-left text-white">
+        <div className="container mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-1">
+            <div className="text-left text-white">
               <h4 className='font-bold'>Shop</h4>
               <ul className='text-base font-normal leading-8'>
                 <li>Gift cards</li>
                 <li>SnipShop blog</li>
               </ul>
             </div>
-            <div class="text-left text-white">
+            <div className="text-left text-white">
               <h4 className='font-bold'>Sell</h4>
               <ul className='text-base font-normal leading-8'>
                 <li>Sell on SnipShop</li>
@@ -27,7 +27,7 @@ function Footer() {
                 <li>Affiliates</li>
               </ul>
             </div>
-            <div class="text-left text-white">
+            <div className="text-left text-white">
               <h4 className='font-bold'>About</h4>
               <ul className='text-base font-normal leading-8'>
                 <li>SnipShop, Inc.</li>
@@ -38,14 +38,14 @@ function Footer() {
                 <li>Impact</li>
               </ul>
             </div>
-            <div class="text-left text-white">
+            <div className="text-left text-white">
               <h4 className='font-boldb'>Help</h4>
               <ul className='text-base font-normal leading-8'>
                 <li>Help center</li>
                 <li>Trust and safety</li>
                 <li>Privacy settings</li>
               </ul>
-              <div class="button">
+              <div className="button">
                 <button className='text-sm'>Download the SnipShop App</button>
               </div>
               <div className='social-icons'>
@@ -64,8 +64,8 @@ function Footer() {
         </div>
       </div>
       <div className='footer-bottom'>
-        <div class="container mx-auto">
-          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-2 text-base">
+        <div className="container mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-2 text-base">
             <div className='text-left'>© 2021-2023 SnipShop.com</div>
             <div>
               <ul className='flex gap-x-3.5 justify-end'>
