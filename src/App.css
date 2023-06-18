@@ -65,6 +65,47 @@
     height: 60px;
 }
 
+/* START TESTIMONIAL PART CSS */
+.testimonial-block .testimonial-image-block{
+  background-color: #CEF0FF;
+  border-radius: 0px 24px 24px 0px;
+  margin-right: 20px;
+}
+.testimonial-block .testimonial-image-block .testimonial-image{
+  background-image: url('./images/testimonial-mask.png');
+  max-width: 430px;
+  max-height: 530px;
+  border-radius: 24px;
+  border: 1px solid #A3DCF4;
+  margin-left: auto;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  margin-right: 16px;
+
+}
+.testimonial-block .arrow-btns{
+  position: relative;
+  width: 200px;
+  /* height: 40px;
+  bottom: 0px;
+  right: 37%; */
+}
+.testimonial-content{
+  max-width: 470px;
+  margin-left: 10%;
+}
+.testimonial-content .user-name{
+  color: #000000;
+}
+.testimonial-content .designation{
+  color: #7E7E7E;
+}
+.testimonial-content .text-content{
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+/* END TESTIMONIAL PART CSS */
+
 /* START FOOTER PART CSS */
 .footer{
   background-color: #0E4B80;

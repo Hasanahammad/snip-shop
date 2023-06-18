@@ -3,7 +3,8 @@ import Navbar from './components/Navbar';
 import Slider from './components/Slider';
 import Trending from './components/Trending';
 import Shop from './components/Shop';
-import Footer from './components/Footer'
+import Testimonial from './components/Testimonial';
+import Footer from './components/Footer';
 import Feature from './components/Feature';
 
 function App() {
@@ -13,7 +14,8 @@ function App() {
       <Slider></Slider>
       <Trending></Trending>
       <Shop></Shop>
-<Feature></Feature>
+      <Feature></Feature>
+      <Testimonial></Testimonial>
 
 
 
