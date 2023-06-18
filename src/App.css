@@ -64,3 +64,50 @@
     width: 60px;
     height: 60px;
 }
+
+/* START FOOTER PART CSS */
+.footer{
+  background-color: #0E4B80;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  background-image: url('./images/footer-bg.png');
+  min-height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footer .container{
+  max-width: 980px;
+}
+.footer h4{
+  font-size: 22px;
+  margin-bottom: 25px;
+}
+.footer button{
+  border-radius: 25px;
+  border: 1.5px solid #ffffff;
+  padding: 9px 15px 9px 40px;
+  position: relative;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.footer button::before{
+  content: '';
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  background-image: url('./images/ss-icon.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  left: 10px;
+  top: 7px;
+
+}
+.footer-bottom{
+  background-color: #232347;
+  color: #ffffff;
+  padding: 20px;
+}
+.footer-bottom .container{
+  max-width: 1040px;
+}
+/* END FOOTER PART CSS */
