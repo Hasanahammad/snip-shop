@@ -10,15 +10,15 @@ export default () => {
     return (
         <nav className="items-center justify-between flex-wrap bg-blue-600 p-6">
 
-            <div className="grid md:grid-cols-4 lg:grid-cols-5 gap-5">
+            <div className="grid md:grid-cols-3 lg:grid-cols-3 gap-1">
 
                 <div>
                     <img className='text-blue-800' src={logo} alt="Logo" />
                 </div>
-                <div className="w-full col-span-3">
+                <div className="w-full">
                     <Search />
                 </div>
-                <div className="w-full flex gap-2">
+                <div className="w-full flex gap-1">
                     <span className='flex text-white hover:cursor-pointer'><img className='h-4 mr-1 mt-1' src={account} alt="Logo" /><span className='mr-1'>Account</span></span>
                     <span className='flex text-white hover:cursor-pointer'><img className='h-4 mr-1 mt-1' src={items} alt="Logo" /><span>My Items</span></span>
                     <ImCart className='text-white ml-1 mt-1 hover:cursor-pointer'></ImCart>

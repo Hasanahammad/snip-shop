@@ -24,7 +24,7 @@ function Sell() {
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
                     width: '100%',
-                    height: '70vh',
+                    // height: '70vh',
                     textAlign: 'center'
                 }}>
                     <div className='sell-div'>

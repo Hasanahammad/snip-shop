@@ -17,6 +17,8 @@ function Testimonial() {
       <div className='mx-auto overflow-hidden py-14'>
         <Swiper
           // install Swiper modules
+          pagination={{ clickable: true }}
+        // scrollbar={{ draggable: true }}
           modules={[Navigation, A11y]}
           spaceBetween={0}
           slidesPerView={1}

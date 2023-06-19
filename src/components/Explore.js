@@ -10,10 +10,10 @@ function Explore() {
     const mi = require('../images/mi.png');
     const adidas = require('../images/adidas.png');
     return (
-        <section className='mt-11' style={{
+        <section className='' style={{
             background: '#F4FCFF'
         }}>
-            <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-5 py-11 items-center">
+            <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-5 py-5 items-center">
 
 
                 <div className="max-w-md" style={{
@@ -21,11 +21,10 @@ function Explore() {
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
                     width: '100%',
-                    height: '50vh',
                     textAlign: 'center',
                     padding:'40px'
                 }}>
-                    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5 icon-bg">
+                    <div className="grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-5 icon-bg">
                         <img className='bg-white apple' src={apple} alt="apple"></img>
                         <img className='bg-white apple' src={bmw} alt="apple"></img>
                         <img className='bg-white apple' src={nike} alt="apple"></img>
@@ -36,7 +35,7 @@ function Explore() {
 
                 </div>
 
-                <div className="max-w-sm text-start">
+                <div className="max-w-sm text-start m-5 pl-5">
                     <h1 className='text-3xl font-bold'>Explore Most Popular<br></br> Brands</h1>
                     <p className='text-gray-500 mt-5'>Life is hard enough already. Let us <br></br> make it a little easier.</p>
                     <p className='mt-11 flex hover:cursor-pointer'>See All <ImArrowRight2 className='ml-5 mt-1'></ImArrowRight2></p>

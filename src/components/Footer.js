@@ -9,8 +9,8 @@ function Footer() {
   return (
     <section>
       <div className='footer'>
-        <div className="container mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-1">
+        <div className="container mx-auto ">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-1 m-5">
             <div className="text-left text-white">
               <h4 className='font-bold'>Shop</h4>
               <ul className='text-base font-normal leading-8'>

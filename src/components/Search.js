@@ -15,7 +15,7 @@ function Search() {
 
     return (
         <form onSubmit={handleFormSubmit} className='w-full flex'>
-            <input className="bg-white appearance-none border-2 border-gray-200 rounded-full w-3/4  py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:blue" id="inline-full-name" type="text"
+            <input className="w-full bg-white appearance-none border-2 border-gray-200 rounded-full w-3/4  py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:blue" id="inline-full-name" type="text"
                 placeholder="Search SnipShop.com"
                 value={searchTerm}
                 onChange={handleInputChange}
