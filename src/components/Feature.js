@@ -1,5 +1,14 @@
 import React, { useEffect, useState } from 'react';
 // import { ImArrowRight2 } from "react-icons/im";
+import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
 
 function Feature() {
 
@@ -35,13 +44,29 @@ function Feature() {
             <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-1">
             </div>
 
-
+            <Swiper
+                // install Swiper modules
+                modules={[Navigation, Pagination, Scrollbar, A11y]}
+                spaceBetween={50}
+                slidesPerView={3}
+                navigation
+                pagination={{ clickable: true }}
+                // scrollbar={{ draggable: true }}
+                onSwiper={(swiper) => console.log(swiper)}
+                onSlideChange={() => console.log('slide change')}
+            >
+                {/* <SwiperSlide>Slide 1</SwiperSlide>
+                <SwiperSlide>Slide 2</SwiperSlide>
+                <SwiperSlide>Slide 3</SwiperSlide>
+                <SwiperSlide>Slide 4</SwiperSlide> */}
+            
 
 
             {data ? (
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5 m-5">
-                    {data.products.slice(0, 3).map((product) => (
-                        <div className="max-w-sm ">
+                    {data.products.slice(0, 12).map((product) => (
+                        <SwiperSlide>
+                        <div className="max-w-sm mb-20">
                             <div key={product.id} className='rounded-3xl overflow-hidden shadow-lg pb-3 transition hover:-translate-y-1 hover:scale-2 duration-300'>
                                 <img className="h-48 object-cover w-full" src={product.thumbnail} alt={product.title} />
                                 <div className="px-6">
@@ -54,7 +79,7 @@ function Feature() {
                                 Order Now
                             </button>
                         </div>
-
+                        </SwiperSlide>
                     ))}
 
                 </div>
@@ -63,7 +88,7 @@ function Feature() {
                 <p>Loading...??</p>
             )}
 
-
+</Swiper>
             {/* <div className="max-w-sm ">
                     <div className='rounded-3xl overflow-hidden shadow-lg pb-3 transition hover:-translate-y-1 hover:scale-2 duration-300'>
                         <img className="w-full" src={f1} alt="Sunset in the mountains" />

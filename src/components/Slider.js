@@ -60,7 +60,7 @@ function Slider() {
             onSwiper={(swiper) => console.log(swiper)}
             onSlideChange={() => console.log('slide change')}
           >
-            <SwiperSlide><div className="grid grid-cols-2 gap-4 text-start">
+            <SwiperSlide><div className="grid grid-cols-2 gap-4 text-start mb-11">
               <div>
                 <img className='camera' src={camera} alt="Camera" />
               </div>
